@@ -243,7 +243,7 @@ img {
 /*=============== HOME SECTION ===============*/
 .home {
   position: relative;
-  height: 800px;
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -437,6 +437,10 @@ img {
 /* For medium devices <> */
 @media (width >=540px) {
 
+  .home {
+    height: 100vh;
+  }
+
   .home__container,
   .about__container {
     grid-template-columns: 400px;
@@ -489,7 +493,7 @@ img {
   }
 
   .home {
-    height: 870px;
+    height: 100vh;
   }
 
   .home__container {

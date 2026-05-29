@@ -59,6 +59,24 @@ const swiperWork = new Swiper(".work__swiper", {
 });
 
 /*=============== SWIPER TESTIMONIAL ===============*/
+const swiperTestimonial = new Swiper(".service__swiper", {
+  // Optional parameters
+  loop: true,
+  slidesPerView: "auto",
+  spaceBetween: 56,
+  grabCursor: true,
+
+  // If we need pagination
+  pagination: {
+    el: ".service__swiper .swiper-pagination",
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".service__swiper .swiper-button-next",
+    prevEl: ".service__swiper .swiper-button-prev",
+  },
+});
 
 /*=============== SHOW SCROLL UP ===============*/
 

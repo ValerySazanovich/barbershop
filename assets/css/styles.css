@@ -249,7 +249,7 @@ img {
 /*=============== HOME SECTION ===============*/
 .home {
   position: relative;
-  height: 800px;
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -802,6 +802,10 @@ img {
 /* For medium devices <> */
 @media (width >=540px) {
 
+  .home {
+    height: 100vh;
+  }
+
   .home__container,
   .about__container,
   .service__container,
@@ -831,7 +835,7 @@ img {
 
 /* For large devices <> */
 @media (width >=1150px) {
-  
+
   .container {
     margin-inline: auto;
   }
@@ -884,7 +888,7 @@ img {
   }
 
   .home {
-    height: 870px;
+    height: 100vh;
   }
 
   .home__container {
@@ -1104,7 +1108,7 @@ img {
 }
 
 /* For 2K resolutions <> */
-@media (width >= 2048px) {
+@media (width >=2048px) {
   body {
     zoom: 1.2;
   }
